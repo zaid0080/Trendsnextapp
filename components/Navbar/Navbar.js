@@ -100,7 +100,7 @@ function Navbar() {
           className={styles.menu_bars}
         />
         {/* <Link href="/"> */}
-          <Image src="/logoTag.png" width="160" height="29" alt="Logo" />
+          <Image src="/ADT.png" width="60" height="25" alt="Logo" />
         {/* </Link> */}
         <span>
           <span>Country Name</span>
