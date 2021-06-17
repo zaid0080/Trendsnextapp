@@ -44,6 +44,7 @@ function Navbar() {
   if(!data){
     return <p>Loading....</p>
   }
+  console.log(data)
 
   // useOnClickOutside(inputRef, () => {
   //   if (searchIcon) {
@@ -72,7 +73,6 @@ function Navbar() {
   //       .sort()
   //   );
   // }, [countryInput]);
-
 
   createTree(filterCountries);
   return (
@@ -178,22 +178,5 @@ function Navbar() {
     </>
   );
 }
-
-// export async function getStaticProps(context) {
-//   const res = await fetch(`https://trendsend.herokuapp.com/place/get-all-places`)
-//   const data = await res.json()
-
-//   if (!data) {
-//     return {
-//       notFound: true,
-//     }
-//   }
-
-//   return {
-//     props: { data }, // will be passed to the page component as props
-//   }
-// }
-
-
 
 export default Navbar;

@@ -6,6 +6,13 @@ export default function Home() {
   return (
     <div className={styles.landing_page}>
         <Header />
+        {/* {data.map(d => {
+          return (
+            <h2>{d.title}</h2>
+          )
+        })} */}
     </div>
   )
 }
+
+
